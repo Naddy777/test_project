@@ -3,10 +3,11 @@ package main.java;
 import java.util.Random;
 
 public class Animal {
+    int age;
+    String name;
+    final int DEFAULT_NAME_LENGHT = 10;
     public static void main(String[] args) {
-        int age;
-        String name;
-        final int DEFAULT_NAME_LENGHT = 10;
+
 //    }
 //    public static void setName(String name) {
 //        this.name = name;// переменная на уровне класса, если без this, то переменная из текущей области видимости
