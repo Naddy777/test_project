@@ -1,5 +1,5 @@
 package main.java;
-public class Application {
+public class Application {// Первая область видимости (уровень класса). { - скобки- тело класса
     public static void main(String[] args) {
         byte foot_size = 42; // равно значит положить значение в переменную. Лучше переменные называть так, чтобы понятно было, что лежит внутри
         System.out.println("Размер обуви - " + foot_size);//
@@ -24,6 +24,11 @@ public class Application {
 
         char c = 'c';
         System.out.println("Знак латиницы - " + c);
+
+        if (1 < 2){// еще одна вложенная область видимости (условного оператора). С уровня метода доступна видимость уровня класса, но не наоборот
+
+            System.out.println("Привет!");
+        }
 
     }
 }
