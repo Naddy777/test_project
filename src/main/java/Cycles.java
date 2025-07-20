@@ -2,7 +2,7 @@ package main.java;
 
 public class Cycles {
     public static void main(String[] args) {
-        double a = Math.random();//функционал в джаве для вычисленний. рандом = значение будет от 0 до 1 (число с плавающей точкой)
+        double a = Math.random();// Math - функционал в джаве для вычисленний. random = значение будет от 0 до 1 (число с плавающей точкой)
         double b = Math.random();
 
         for(int i = 0; i < 10; i++){// первый вариант цикла
