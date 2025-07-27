@@ -1,10 +1,11 @@
+// Задача: вывести приветствие пользователя в зависимости от времени суток.
 package main.java.testcode;
 import java.time.LocalDateTime;
 import java.util.Scanner;
 //Задача про обращение к пользователю в зависимости от времени суток
 public class Main {
     public static void main(String[] args) {
-        int hour = LocalDateTime.now().getHour();
+        int hour = LocalDateTime.now().getHour();// ниже просто тест методов
         System.out.println(hour);//выделяем текущий час
         System.out.println(LocalDateTime.now());
         System.out.println(LocalDateTime.now().getDayOfMonth());// выделяем дату
@@ -25,9 +26,6 @@ public class Main {
             System.out.println("Доброй ночи, " + name +"! Рад Вас видеть! Но пора уже спать..");
         }
 
-
-
-
-
     }
+
 }
