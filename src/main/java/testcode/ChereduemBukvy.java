@@ -5,7 +5,7 @@
  */
 package main.java.testcode;
 
-public class Primer1 {
+public class ChereduemBukvy {
     public static void main(String[] args) {
         int N = 8;
         char c1 = 'A';
