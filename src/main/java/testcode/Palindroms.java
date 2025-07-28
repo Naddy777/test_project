@@ -6,7 +6,7 @@ package main.java.testcode;
 
 import java.util.Scanner;
 
-public class Primer2 {
+public class Palindroms {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // Создаем объект Сканер
         System.out.print("Введите слово или фразу: ");
